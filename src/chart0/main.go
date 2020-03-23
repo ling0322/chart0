@@ -49,6 +49,7 @@ func main() {
 
 	redisAddr := os.Getenv("REDIS_ADDR")
 	redisPasswd := os.Getenv("REDIS_PASSWD")
+	listenAddr := os.Getenv("LISTEN_ADDR")
 	d := NewData(redisAddr, redisPasswd)
 	pageTmpl := getTemplate()
 
@@ -90,5 +91,5 @@ func main() {
 	fs := http.FileServer(http.Dir("app/static"))
 	http.Handle("/static/", http.StripPrefix("/static/", fs))
 
-	log.Fatal(http.ListenAndServe("192.168.1.3:20080", nil))
+	log.Fatal(http.ListenAndServe(listenAddr, nil))
 }
