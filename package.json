@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@types/d3": "^5.7.2",
+    "@types/react": "^16.9.25",
+    "@types/react-dom": "^16.9.5",
+    "@types/styled-components": "4.1.8",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.5.0",
+    "d3": "^5.15.0",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^4.1.8",
+    "tsify": "^4.0.1",
+    "typescript": "^3.8.3",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
+  },
+  "dependencies": {
+    "@types/js-base64": "^2.3.1",
+    "gulp-uglify": "^3.0.2",
+    "js-base64": "^2.5.2"
+  }
+}
